@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Curriculum Vitae</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>HOJA DE VIDA</h1>
+    </header>
+    <div class="imagen"></div>
+    <div class="container">
+        <div class="header">
+          <h1>Maria Stephanie Tovar Hernandez</h1>
+          <p class="subheader">Desarrollador Web</p>
+        </div>
+        <div class="section">
+            <h2>Datos Personales</h2>
+            <ul>
+                <p>Fecha de Nacimiento: 25/01/2001</p>
+                <p>Celular: 3002542168</p>
+                <p>Correo electrónico: ingmariatovar@gmail.com</p>
+            </ul>
+        </div>
+        <div class="section">
+        <h2>Perfil profesional</h2>
+          <ul>
+            <p>Estudiante de Ingeniería Electrónica apta para prácticas profesionales.
+                Soy una persona disciplinada, responsable, organizada, productiva, colaboradora, 
+                y con habilidades de investigación; dispuesta al trabajo individual o grupal. 
+                Además, cuento con conocimientos de Desarrollo web en el área de front-end, 
+                circuitos de potencia, implementación de redes inalambricas, electrónica industrial, 
+                sistemas de control, electrónica digital y procesamiento de señales. 
+                De igual forma me encuentro dispuesta a seguir aprendiendo en dichas áreas. </p>
+          </ul>
+        </div>
+        <div class="section">
+        <h2>Educación</h2>
+          <ul>
+            <li>
+              <h3>Ingeniería Electronica</h3>
+              <p class="subheader">Universidad del Magdalena</p>
+              <p class="date">2018 - En proceso </p>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <h3>Bachiller Academico</h3>
+              <p class="subheader">Institucion Educativa de Galeras</p>
+              <p class="date">2012 - 2017</p>
+            </li>
+          </ul>
+        </div>
+        <div class="section">
+            <h2>Habilidades Blandas</h2>
+            <ul>
+                <li>
+                <p>Aprendizaje Rapido</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                  <p>Atencion al Detalle</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                <p>Trabajo en equipo</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                <p>Perseverancia</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                <p>Pensamiento Analitico y critico</p>
+                </li>
+            </ul>
+            <h2>Habilidades Duras</h2>
+            <ul>
+                <li>
+                <p>Python</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                  <p>JavaScript, CSS y HTML</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                  <p>Matlab y Simulink</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                  <p>JAVA</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Publicaciones</h2>
+              <ul>
+                <h3>Artículo de Investigación “Análisis y estimación gráfica del comportamiento del COVID-19 en Colombia, Santa Marta y Cartagena enfocado a la letalidad” en revista Respuestas UFPS VOL 26. NÚM. 1 </h3>
+              </ul>
+        </div>
+    </div>
+    <textarea id="carta" rows="5" cols="50"></textarea>
+        <br>
+        <button id="enviar">Enviar</button>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <footer>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+      </svg>
+        <p>Hecho por
+            <a href="https://github.com/mstovarh">mstovarh</a>
+        </p>
+    </footer>
+
+    <script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
